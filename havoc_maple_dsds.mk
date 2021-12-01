@@ -15,7 +15,7 @@ TARGET_SCREEN_WIDTH := 1080
 # vendor/havoc/config/common.mk
 TARGET_BOOTANIMATION_HALF_RES := true
 
-### HAVOC   
+### HAVOC
 $(call inherit-product, vendor/havoc/config/common_full_phone.mk)
 
 ## Device identifier. This must come after all inclusions
